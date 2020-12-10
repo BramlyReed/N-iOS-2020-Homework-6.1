@@ -84,7 +84,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I1N-M1-8La"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="xzB-VW-hhv" firstAttribute="bottom" secondItem="I1N-M1-8La" secondAttribute="bottom" id="N3j-66-fxY"/>
                             <constraint firstItem="xzB-VW-hhv" firstAttribute="trailing" secondItem="I1N-M1-8La" secondAttribute="trailing" id="RdO-dt-Jzx"/>
@@ -102,6 +102,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
