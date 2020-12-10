@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79CF37D325820A6100B9C491 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CF37D225820A6100B9C491 /* PhotosVC.swift */; };
 		79EFE66025816AE30079D446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFE65F25816AE30079D446 /* AppDelegate.swift */; };
 		79EFE66225816AE30079D446 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFE66125816AE30079D446 /* SceneDelegate.swift */; };
 		79EFE66425816AE30079D446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFE66325816AE30079D446 /* ViewController.swift */; };
 		79EFE66725816AE30079D446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EFE66525816AE30079D446 /* Main.storyboard */; };
 		79EFE66925816AE50079D446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EFE66825816AE50079D446 /* Assets.xcassets */; };
 		79EFE66C25816AE50079D446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EFE66A25816AE50079D446 /* LaunchScreen.storyboard */; };
+		79EFE676258171D20079D446 /* customCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79EFE675258171D20079D446 /* customCell.xib */; };
+		79EFE679258173590079D446 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EFE678258173590079D446 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79CF37D225820A6100B9C491 /* PhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
 		79EFE65C25816AE30079D446 /* Homework 6.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 6.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EFE65F25816AE30079D446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79EFE66125816AE30079D446 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		79EFE66825816AE50079D446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79EFE66B25816AE50079D446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79EFE66D25816AE50079D446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79EFE675258171D20079D446 /* customCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customCell.xib; sourceTree = "<group>"; };
+		79EFE678258173590079D446 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				79EFE66825816AE50079D446 /* Assets.xcassets */,
 				79EFE66A25816AE50079D446 /* LaunchScreen.storyboard */,
 				79EFE66D25816AE50079D446 /* Info.plist */,
+				79EFE675258171D20079D446 /* customCell.xib */,
+				79EFE678258173590079D446 /* CollectionViewCell.swift */,
+				79CF37D225820A6100B9C491 /* PhotosVC.swift */,
 			);
 			path = "Homework 6.1";
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			files = (
 				79EFE66C25816AE50079D446 /* LaunchScreen.storyboard in Resources */,
 				79EFE66925816AE50079D446 /* Assets.xcassets in Resources */,
+				79EFE676258171D20079D446 /* customCell.xib in Resources */,
 				79EFE66725816AE30079D446 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +149,9 @@
 			files = (
 				79EFE66425816AE30079D446 /* ViewController.swift in Sources */,
 				79EFE66025816AE30079D446 /* AppDelegate.swift in Sources */,
+				79EFE679258173590079D446 /* CollectionViewCell.swift in Sources */,
 				79EFE66225816AE30079D446 /* SceneDelegate.swift in Sources */,
+				79CF37D325820A6100B9C491 /* PhotosVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "stas.Homework-6-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "stas.Homework-6-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
